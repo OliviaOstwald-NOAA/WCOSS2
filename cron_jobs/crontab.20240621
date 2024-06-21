@@ -1,0 +1,6 @@
+SHELL=/bin/bash -l
+08 15 * * * sh /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/cron_jobs/tcdata.sh 1> /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/cron_jobs/logs/tcdata.out
+15 00 * * * sh /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/cron_jobs/tcdata.sh 1> /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/cron_jobs/logs/tcdata.out
+23 00 * * * sh /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/cron_jobs/tcdata.sh 1> /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/cron_jobs/logs/tcdata.out
+#21 00 * * * sh /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/cron_jobs/tcdata.sh 1> /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/cron_jobs/logs/tcdata.out
+
