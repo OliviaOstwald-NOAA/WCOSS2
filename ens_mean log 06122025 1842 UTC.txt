@@ -1,0 +1,427 @@
+﻿-----------------------------------------------------
+ +++ - Compute ensemble mean cyclone forecast track  
+-----------------------------------------------------
+History: Dec 2015 - multiple model ensemble mean-----
+ 
+Current time is: Thu Jun 12 18:42:21 UTC 2025
+ 
+ + ens_trak_ave.sh line 41: export PDY=20180503
+ + ens_trak_ave.sh line 41: PDY=20180503
+ + ens_trak_ave.sh line 42: export CYL=00
+ + ens_trak_ave.sh line 42: CYL=00
+ + ens_trak_ave.sh line 43: export CYCLE=t00z
+ + ens_trak_ave.sh line 43: CYCLE=t00z
+ + ens_trak_ave.sh line 44: export cmodel=aemn
+ + ens_trak_ave.sh line 44: cmodel=aemn
+ + ens_trak_ave.sh line 45: export DATA=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+ + ens_trak_ave.sh line 45: DATA=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+ + ens_trak_ave.sh line 47: export jlogfile=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/log_file_mean
+ + ens_trak_ave.sh line 47: jlogfile=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/log_file_mean
+ + ens_trak_ave.sh line 48: export pgmout=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/pgm_out_mean
+ + ens_trak_ave.sh line 48: pgmout=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/pgm_out_mean
+ + ens_trak_ave.sh line 50: export ROOT=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save
+ + ens_trak_ave.sh line 50: ROOT=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save
+ + ens_trak_ave.sh line 54: ymdh=2018050300
+  + ens_trak_ave.sh line 56: echo 2018050300
+  + ens_trak_ave.sh line 56: cut -c1-2
+ + ens_trak_ave.sh line 56: cent=20
+  + ens_trak_ave.sh line 57: echo 2018050300
+  + ens_trak_ave.sh line 57: cut -c3-4
+ + ens_trak_ave.sh line 57: yy=18
+  + ens_trak_ave.sh line 58: echo 2018050300
+  + ens_trak_ave.sh line 58: cut -c5-6
+ + ens_trak_ave.sh line 58: mm=05
+  + ens_trak_ave.sh line 59: echo 2018050300
+  + ens_trak_ave.sh line 59: cut -c7-8
+ + ens_trak_ave.sh line 59: dd=03
+  + ens_trak_ave.sh line 60: echo 2018050300
+  + ens_trak_ave.sh line 60: cut -c9-10
+ + ens_trak_ave.sh line 60: hh=00
+  + ens_trak_ave.sh line 61: echo 2018050300
+  + ens_trak_ave.sh line 61: cut -c1-4
+ + ens_trak_ave.sh line 61: syyyy=2018
+ + ens_trak_ave.sh line 62: ymd=180503
+ + ens_trak_ave.sh line 63: yyyymmdd=20180503
+ + ens_trak_ave.sh line 64: export cyc=00
+ + ens_trak_ave.sh line 64: cyc=00
+ + ens_trak_ave.sh line 69: export envir=test
+ + ens_trak_ave.sh line 69: envir=test
+ + ens_trak_ave.sh line 70: export SENDCOM=NO
+ + ens_trak_ave.sh line 70: SENDCOM=NO
+ + ens_trak_ave.sh line 75: export gltrkdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/track
+ + ens_trak_ave.sh line 75: gltrkdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/track
+ + ens_trak_ave.sh line 78: export ATCFdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/atcf
+ + ens_trak_ave.sh line 78: ATCFdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/atcf
+ + ens_trak_ave.sh line 80: '[' '!' -d /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN ']'
+ + ens_trak_ave.sh line 85: cd /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/meantkerN/ens_trak_ave.sh: line 458: syntax error near unexpected token `)'
+/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/meantkerN/ens_trak_ave.sh: line 458: `     *) set +x                                                 ;'
+mv: cannot stat '/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/trak.aemn.*': No such file or directory
+mv: cannot stat '/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/aemn.trkprob.*': No such file or directory
+ 
+-----------------------------------------------------
+ +++ - Compute ensemble mean cyclone forecast track  
+-----------------------------------------------------
+History: Dec 2015 - multiple model ensemble mean-----
+ 
+Current time is: Thu Jun 12 18:42:24 UTC 2025
+ 
+ + ens_trak_ave.sh line 41: export PDY=20180507
+ + ens_trak_ave.sh line 41: PDY=20180507
+ + ens_trak_ave.sh line 42: export CYL=00
+ + ens_trak_ave.sh line 42: CYL=00
+ + ens_trak_ave.sh line 43: export CYCLE=t00z
+ + ens_trak_ave.sh line 43: CYCLE=t00z
+ + ens_trak_ave.sh line 44: export cmodel=aemn
+ + ens_trak_ave.sh line 44: cmodel=aemn
+ + ens_trak_ave.sh line 45: export DATA=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+ + ens_trak_ave.sh line 45: DATA=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+ + ens_trak_ave.sh line 47: export jlogfile=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/log_file_mean
+ + ens_trak_ave.sh line 47: jlogfile=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/log_file_mean
+ + ens_trak_ave.sh line 48: export pgmout=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/pgm_out_mean
+ + ens_trak_ave.sh line 48: pgmout=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/pgm_out_mean
+ + ens_trak_ave.sh line 50: export ROOT=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save
+ + ens_trak_ave.sh line 50: ROOT=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save
+ + ens_trak_ave.sh line 54: ymdh=2018050700
+  + ens_trak_ave.sh line 56: echo 2018050700
+  + ens_trak_ave.sh line 56: cut -c1-2
+ + ens_trak_ave.sh line 56: cent=20
+  + ens_trak_ave.sh line 57: echo 2018050700
+  + ens_trak_ave.sh line 57: cut -c3-4
+ + ens_trak_ave.sh line 57: yy=18
+  + ens_trak_ave.sh line 58: echo 2018050700
+  + ens_trak_ave.sh line 58: cut -c5-6
+ + ens_trak_ave.sh line 58: mm=05
+  + ens_trak_ave.sh line 59: echo 2018050700
+  + ens_trak_ave.sh line 59: cut -c7-8
+ + ens_trak_ave.sh line 59: dd=07
+  + ens_trak_ave.sh line 60: echo 2018050700
+  + ens_trak_ave.sh line 60: cut -c9-10
+ + ens_trak_ave.sh line 60: hh=00
+  + ens_trak_ave.sh line 61: echo 2018050700
+  + ens_trak_ave.sh line 61: cut -c1-4
+ + ens_trak_ave.sh line 61: syyyy=2018
+ + ens_trak_ave.sh line 62: ymd=180507
+ + ens_trak_ave.sh line 63: yyyymmdd=20180507
+ + ens_trak_ave.sh line 64: export cyc=00
+ + ens_trak_ave.sh line 64: cyc=00
+ + ens_trak_ave.sh line 69: export envir=test
+ + ens_trak_ave.sh line 69: envir=test
+ + ens_trak_ave.sh line 70: export SENDCOM=NO
+ + ens_trak_ave.sh line 70: SENDCOM=NO
+ + ens_trak_ave.sh line 75: export gltrkdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/track
+ + ens_trak_ave.sh line 75: gltrkdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/track
+ + ens_trak_ave.sh line 78: export ATCFdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/atcf
+ + ens_trak_ave.sh line 78: ATCFdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/atcf
+ + ens_trak_ave.sh line 80: '[' '!' -d /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN ']'
+ + ens_trak_ave.sh line 85: cd /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/meantkerN/ens_trak_ave.sh: line 458: syntax error near unexpected token `)'
+/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/meantkerN/ens_trak_ave.sh: line 458: `     *) set +x                                                 ;'
+mv: cannot stat '/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/trak.aemn.*': No such file or directory
+mv: cannot stat '/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/aemn.trkprob.*': No such file or directory
+ 
+-----------------------------------------------------
+ +++ - Compute ensemble mean cyclone forecast track  
+-----------------------------------------------------
+History: Dec 2015 - multiple model ensemble mean-----
+ 
+Current time is: Thu Jun 12 18:42:27 UTC 2025
+ 
+ + ens_trak_ave.sh line 41: export PDY=20180510
+ + ens_trak_ave.sh line 41: PDY=20180510
+ + ens_trak_ave.sh line 42: export CYL=00
+ + ens_trak_ave.sh line 42: CYL=00
+ + ens_trak_ave.sh line 43: export CYCLE=t00z
+ + ens_trak_ave.sh line 43: CYCLE=t00z
+ + ens_trak_ave.sh line 44: export cmodel=aemn
+ + ens_trak_ave.sh line 44: cmodel=aemn
+ + ens_trak_ave.sh line 45: export DATA=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+ + ens_trak_ave.sh line 45: DATA=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+ + ens_trak_ave.sh line 47: export jlogfile=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/log_file_mean
+ + ens_trak_ave.sh line 47: jlogfile=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/log_file_mean
+ + ens_trak_ave.sh line 48: export pgmout=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/pgm_out_mean
+ + ens_trak_ave.sh line 48: pgmout=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/pgm_out_mean
+ + ens_trak_ave.sh line 50: export ROOT=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save
+ + ens_trak_ave.sh line 50: ROOT=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save
+ + ens_trak_ave.sh line 54: ymdh=2018051000
+  + ens_trak_ave.sh line 56: echo 2018051000
+  + ens_trak_ave.sh line 56: cut -c1-2
+ + ens_trak_ave.sh line 56: cent=20
+  + ens_trak_ave.sh line 57: echo 2018051000
+  + ens_trak_ave.sh line 57: cut -c3-4
+ + ens_trak_ave.sh line 57: yy=18
+  + ens_trak_ave.sh line 58: echo 2018051000
+  + ens_trak_ave.sh line 58: cut -c5-6
+ + ens_trak_ave.sh line 58: mm=05
+  + ens_trak_ave.sh line 59: echo 2018051000
+  + ens_trak_ave.sh line 59: cut -c7-8
+ + ens_trak_ave.sh line 59: dd=10
+  + ens_trak_ave.sh line 60: echo 2018051000
+  + ens_trak_ave.sh line 60: cut -c9-10
+ + ens_trak_ave.sh line 60: hh=00
+  + ens_trak_ave.sh line 61: echo 2018051000
+  + ens_trak_ave.sh line 61: cut -c1-4
+ + ens_trak_ave.sh line 61: syyyy=2018
+ + ens_trak_ave.sh line 62: ymd=180510
+ + ens_trak_ave.sh line 63: yyyymmdd=20180510
+ + ens_trak_ave.sh line 64: export cyc=00
+ + ens_trak_ave.sh line 64: cyc=00
+ + ens_trak_ave.sh line 69: export envir=test
+ + ens_trak_ave.sh line 69: envir=test
+ + ens_trak_ave.sh line 70: export SENDCOM=NO
+ + ens_trak_ave.sh line 70: SENDCOM=NO
+ + ens_trak_ave.sh line 75: export gltrkdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/track
+ + ens_trak_ave.sh line 75: gltrkdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/track
+ + ens_trak_ave.sh line 78: export ATCFdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/atcf
+ + ens_trak_ave.sh line 78: ATCFdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/atcf
+ + ens_trak_ave.sh line 80: '[' '!' -d /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN ']'
+ + ens_trak_ave.sh line 85: cd /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/meantkerN/ens_trak_ave.sh: line 458: syntax error near unexpected token `)'
+/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/meantkerN/ens_trak_ave.sh: line 458: `     *) set +x                                                 ;'
+mv: cannot stat '/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/trak.aemn.*': No such file or directory
+mv: cannot stat '/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/aemn.trkprob.*': No such file or directory
+ 
+-----------------------------------------------------
+ +++ - Compute ensemble mean cyclone forecast track  
+-----------------------------------------------------
+History: Dec 2015 - multiple model ensemble mean-----
+ 
+Current time is: Thu Jun 12 18:42:28 UTC 2025
+ 
+ + ens_trak_ave.sh line 41: export PDY=20180517
+ + ens_trak_ave.sh line 41: PDY=20180517
+ + ens_trak_ave.sh line 42: export CYL=00
+ + ens_trak_ave.sh line 42: CYL=00
+ + ens_trak_ave.sh line 43: export CYCLE=t00z
+ + ens_trak_ave.sh line 43: CYCLE=t00z
+ + ens_trak_ave.sh line 44: export cmodel=aemn
+ + ens_trak_ave.sh line 44: cmodel=aemn
+ + ens_trak_ave.sh line 45: export DATA=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+ + ens_trak_ave.sh line 45: DATA=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+ + ens_trak_ave.sh line 47: export jlogfile=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/log_file_mean
+ + ens_trak_ave.sh line 47: jlogfile=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/log_file_mean
+ + ens_trak_ave.sh line 48: export pgmout=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/pgm_out_mean
+ + ens_trak_ave.sh line 48: pgmout=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/pgm_out_mean
+ + ens_trak_ave.sh line 50: export ROOT=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save
+ + ens_trak_ave.sh line 50: ROOT=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save
+ + ens_trak_ave.sh line 54: ymdh=2018051700
+  + ens_trak_ave.sh line 56: echo 2018051700
+  + ens_trak_ave.sh line 56: cut -c1-2
+ + ens_trak_ave.sh line 56: cent=20
+  + ens_trak_ave.sh line 57: echo 2018051700
+  + ens_trak_ave.sh line 57: cut -c3-4
+ + ens_trak_ave.sh line 57: yy=18
+  + ens_trak_ave.sh line 58: echo 2018051700
+  + ens_trak_ave.sh line 58: cut -c5-6
+ + ens_trak_ave.sh line 58: mm=05
+  + ens_trak_ave.sh line 59: echo 2018051700
+  + ens_trak_ave.sh line 59: cut -c7-8
+ + ens_trak_ave.sh line 59: dd=17
+  + ens_trak_ave.sh line 60: echo 2018051700
+  + ens_trak_ave.sh line 60: cut -c9-10
+ + ens_trak_ave.sh line 60: hh=00
+  + ens_trak_ave.sh line 61: echo 2018051700
+  + ens_trak_ave.sh line 61: cut -c1-4
+ + ens_trak_ave.sh line 61: syyyy=2018
+ + ens_trak_ave.sh line 62: ymd=180517
+ + ens_trak_ave.sh line 63: yyyymmdd=20180517
+ + ens_trak_ave.sh line 64: export cyc=00
+ + ens_trak_ave.sh line 64: cyc=00
+ + ens_trak_ave.sh line 69: export envir=test
+ + ens_trak_ave.sh line 69: envir=test
+ + ens_trak_ave.sh line 70: export SENDCOM=NO
+ + ens_trak_ave.sh line 70: SENDCOM=NO
+ + ens_trak_ave.sh line 75: export gltrkdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/track
+ + ens_trak_ave.sh line 75: gltrkdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/track
+ + ens_trak_ave.sh line 78: export ATCFdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/atcf
+ + ens_trak_ave.sh line 78: ATCFdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/atcf
+ + ens_trak_ave.sh line 80: '[' '!' -d /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN ']'
+ + ens_trak_ave.sh line 85: cd /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/meantkerN/ens_trak_ave.sh: line 458: syntax error near unexpected token `)'
+/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/meantkerN/ens_trak_ave.sh: line 458: `     *) set +x                                                 ;'
+mv: cannot stat '/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/trak.aemn.*': No such file or directory
+mv: cannot stat '/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/aemn.trkprob.*': No such file or directory
+ 
+-----------------------------------------------------
+ +++ - Compute ensemble mean cyclone forecast track  
+-----------------------------------------------------
+History: Dec 2015 - multiple model ensemble mean-----
+ 
+Current time is: Thu Jun 12 18:42:29 UTC 2025
+ 
+ + ens_trak_ave.sh line 41: export PDY=20180521
+ + ens_trak_ave.sh line 41: PDY=20180521
+ + ens_trak_ave.sh line 42: export CYL=00
+ + ens_trak_ave.sh line 42: CYL=00
+ + ens_trak_ave.sh line 43: export CYCLE=t00z
+ + ens_trak_ave.sh line 43: CYCLE=t00z
+ + ens_trak_ave.sh line 44: export cmodel=aemn
+ + ens_trak_ave.sh line 44: cmodel=aemn
+ + ens_trak_ave.sh line 45: export DATA=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+ + ens_trak_ave.sh line 45: DATA=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+ + ens_trak_ave.sh line 47: export jlogfile=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/log_file_mean
+ + ens_trak_ave.sh line 47: jlogfile=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/log_file_mean
+ + ens_trak_ave.sh line 48: export pgmout=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/pgm_out_mean
+ + ens_trak_ave.sh line 48: pgmout=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/pgm_out_mean
+ + ens_trak_ave.sh line 50: export ROOT=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save
+ + ens_trak_ave.sh line 50: ROOT=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save
+ + ens_trak_ave.sh line 54: ymdh=2018052100
+  + ens_trak_ave.sh line 56: echo 2018052100
+  + ens_trak_ave.sh line 56: cut -c1-2
+ + ens_trak_ave.sh line 56: cent=20
+  + ens_trak_ave.sh line 57: echo 2018052100
+  + ens_trak_ave.sh line 57: cut -c3-4
+ + ens_trak_ave.sh line 57: yy=18
+  + ens_trak_ave.sh line 58: echo 2018052100
+  + ens_trak_ave.sh line 58: cut -c5-6
+ + ens_trak_ave.sh line 58: mm=05
+  + ens_trak_ave.sh line 59: echo 2018052100
+  + ens_trak_ave.sh line 59: cut -c7-8
+ + ens_trak_ave.sh line 59: dd=21
+  + ens_trak_ave.sh line 60: echo 2018052100
+  + ens_trak_ave.sh line 60: cut -c9-10
+ + ens_trak_ave.sh line 60: hh=00
+  + ens_trak_ave.sh line 61: echo 2018052100
+  + ens_trak_ave.sh line 61: cut -c1-4
+ + ens_trak_ave.sh line 61: syyyy=2018
+ + ens_trak_ave.sh line 62: ymd=180521
+ + ens_trak_ave.sh line 63: yyyymmdd=20180521
+ + ens_trak_ave.sh line 64: export cyc=00
+ + ens_trak_ave.sh line 64: cyc=00
+ + ens_trak_ave.sh line 69: export envir=test
+ + ens_trak_ave.sh line 69: envir=test
+ + ens_trak_ave.sh line 70: export SENDCOM=NO
+ + ens_trak_ave.sh line 70: SENDCOM=NO
+ + ens_trak_ave.sh line 75: export gltrkdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/track
+ + ens_trak_ave.sh line 75: gltrkdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/track
+ + ens_trak_ave.sh line 78: export ATCFdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/atcf
+ + ens_trak_ave.sh line 78: ATCFdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/atcf
+ + ens_trak_ave.sh line 80: '[' '!' -d /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN ']'
+ + ens_trak_ave.sh line 85: cd /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/meantkerN/ens_trak_ave.sh: line 458: syntax error near unexpected token `)'
+/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/meantkerN/ens_trak_ave.sh: line 458: `     *) set +x                                                 ;'
+mv: cannot stat '/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/trak.aemn.*': No such file or directory
+mv: cannot stat '/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/aemn.trkprob.*': No such file or directory
+ 
+-----------------------------------------------------
+ +++ - Compute ensemble mean cyclone forecast track  
+-----------------------------------------------------
+History: Dec 2015 - multiple model ensemble mean-----
+ 
+Current time is: Thu Jun 12 18:42:33 UTC 2025
+ 
+ + ens_trak_ave.sh line 41: export PDY=20180524
+ + ens_trak_ave.sh line 41: PDY=20180524
+ + ens_trak_ave.sh line 42: export CYL=00
+ + ens_trak_ave.sh line 42: CYL=00
+ + ens_trak_ave.sh line 43: export CYCLE=t00z
+ + ens_trak_ave.sh line 43: CYCLE=t00z
+ + ens_trak_ave.sh line 44: export cmodel=aemn
+ + ens_trak_ave.sh line 44: cmodel=aemn
+ + ens_trak_ave.sh line 45: export DATA=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+ + ens_trak_ave.sh line 45: DATA=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+ + ens_trak_ave.sh line 47: export jlogfile=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/log_file_mean
+ + ens_trak_ave.sh line 47: jlogfile=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/log_file_mean
+ + ens_trak_ave.sh line 48: export pgmout=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/pgm_out_mean
+ + ens_trak_ave.sh line 48: pgmout=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/pgm_out_mean
+ + ens_trak_ave.sh line 50: export ROOT=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save
+ + ens_trak_ave.sh line 50: ROOT=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save
+ + ens_trak_ave.sh line 54: ymdh=2018052400
+  + ens_trak_ave.sh line 56: echo 2018052400
+  + ens_trak_ave.sh line 56: cut -c1-2
+ + ens_trak_ave.sh line 56: cent=20
+  + ens_trak_ave.sh line 57: echo 2018052400
+  + ens_trak_ave.sh line 57: cut -c3-4
+ + ens_trak_ave.sh line 57: yy=18
+  + ens_trak_ave.sh line 58: echo 2018052400
+  + ens_trak_ave.sh line 58: cut -c5-6
+ + ens_trak_ave.sh line 58: mm=05
+  + ens_trak_ave.sh line 59: echo 2018052400
+  + ens_trak_ave.sh line 59: cut -c7-8
+ + ens_trak_ave.sh line 59: dd=24
+  + ens_trak_ave.sh line 60: echo 2018052400
+  + ens_trak_ave.sh line 60: cut -c9-10
+ + ens_trak_ave.sh line 60: hh=00
+  + ens_trak_ave.sh line 61: echo 2018052400
+  + ens_trak_ave.sh line 61: cut -c1-4
+ + ens_trak_ave.sh line 61: syyyy=2018
+ + ens_trak_ave.sh line 62: ymd=180524
+ + ens_trak_ave.sh line 63: yyyymmdd=20180524
+ + ens_trak_ave.sh line 64: export cyc=00
+ + ens_trak_ave.sh line 64: cyc=00
+ + ens_trak_ave.sh line 69: export envir=test
+ + ens_trak_ave.sh line 69: envir=test
+ + ens_trak_ave.sh line 70: export SENDCOM=NO
+ + ens_trak_ave.sh line 70: SENDCOM=NO
+ + ens_trak_ave.sh line 75: export gltrkdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/track
+ + ens_trak_ave.sh line 75: gltrkdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/track
+ + ens_trak_ave.sh line 78: export ATCFdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/atcf
+ + ens_trak_ave.sh line 78: ATCFdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/atcf
+ + ens_trak_ave.sh line 80: '[' '!' -d /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN ']'
+ + ens_trak_ave.sh line 85: cd /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/meantkerN/ens_trak_ave.sh: line 458: syntax error near unexpected token `)'
+/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/meantkerN/ens_trak_ave.sh: line 458: `     *) set +x                                                 ;'
+mv: cannot stat '/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/trak.aemn.*': No such file or directory
+mv: cannot stat '/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/aemn.trkprob.*': No such file or directory
+ 
+-----------------------------------------------------
+ +++ - Compute ensemble mean cyclone forecast track  
+-----------------------------------------------------
+History: Dec 2015 - multiple model ensemble mean-----
+ 
+Current time is: Thu Jun 12 18:42:35 UTC 2025
+ 
+ + ens_trak_ave.sh line 41: export PDY=20180531
+ + ens_trak_ave.sh line 41: PDY=20180531
+ + ens_trak_ave.sh line 42: export CYL=00
+ + ens_trak_ave.sh line 42: CYL=00
+ + ens_trak_ave.sh line 43: export CYCLE=t00z
+ + ens_trak_ave.sh line 43: CYCLE=t00z
+ + ens_trak_ave.sh line 44: export cmodel=aemn
+ + ens_trak_ave.sh line 44: cmodel=aemn
+ + ens_trak_ave.sh line 45: export DATA=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+ + ens_trak_ave.sh line 45: DATA=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+ + ens_trak_ave.sh line 47: export jlogfile=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/log_file_mean
+ + ens_trak_ave.sh line 47: jlogfile=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/log_file_mean
+ + ens_trak_ave.sh line 48: export pgmout=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/pgm_out_mean
+ + ens_trak_ave.sh line 48: pgmout=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/pgm_out_mean
+ + ens_trak_ave.sh line 50: export ROOT=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save
+ + ens_trak_ave.sh line 50: ROOT=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save
+ + ens_trak_ave.sh line 54: ymdh=2018053100
+  + ens_trak_ave.sh line 56: echo 2018053100
+  + ens_trak_ave.sh line 56: cut -c1-2
+ + ens_trak_ave.sh line 56: cent=20
+  + ens_trak_ave.sh line 57: echo 2018053100
+  + ens_trak_ave.sh line 57: cut -c3-4
+ + ens_trak_ave.sh line 57: yy=18
+  + ens_trak_ave.sh line 58: echo 2018053100
+  + ens_trak_ave.sh line 58: cut -c5-6
+ + ens_trak_ave.sh line 58: mm=05
+  + ens_trak_ave.sh line 59: echo 2018053100
+  + ens_trak_ave.sh line 59: cut -c7-8
+ + ens_trak_ave.sh line 59: dd=31
+  + ens_trak_ave.sh line 60: echo 2018053100
+  + ens_trak_ave.sh line 60: cut -c9-10
+ + ens_trak_ave.sh line 60: hh=00
+  + ens_trak_ave.sh line 61: echo 2018053100
+  + ens_trak_ave.sh line 61: cut -c1-4
+ + ens_trak_ave.sh line 61: syyyy=2018
+ + ens_trak_ave.sh line 62: ymd=180531
+ + ens_trak_ave.sh line 63: yyyymmdd=20180531
+ + ens_trak_ave.sh line 64: export cyc=00
+ + ens_trak_ave.sh line 64: cyc=00
+ + ens_trak_ave.sh line 69: export envir=test
+ + ens_trak_ave.sh line 69: envir=test
+ + ens_trak_ave.sh line 70: export SENDCOM=NO
+ + ens_trak_ave.sh line 70: SENDCOM=NO
+ + ens_trak_ave.sh line 75: export gltrkdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/track
+ + ens_trak_ave.sh line 75: gltrkdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/track
+ + ens_trak_ave.sh line 78: export ATCFdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/atcf
+ + ens_trak_ave.sh line 78: ATCFdir=/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/test/atcf
+ + ens_trak_ave.sh line 80: '[' '!' -d /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN ']'
+ + ens_trak_ave.sh line 85: cd /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN
+/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/meantkerN/ens_trak_ave.sh: line 458: syntax error near unexpected token `)'
+/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/save/meantkerN/ens_trak_ave.sh: line 458: `     *) set +x                                                 ;'
+mv: cannot stat '/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/trak.aemn.*': No such file or directory
+mv: cannot stat '/lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/ptmp/AEMN/aemn.trkprob.*': No such file or directory
+[dlogin04 /lfs/h2/emc/vpppg/noscrub/olivia.ostwald/GEFSv13/EP6/ens/code]$
